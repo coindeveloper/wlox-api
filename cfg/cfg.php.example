@@ -1,8 +1,16 @@
 <?php
-class object {}
-$CFG = new object ( );
+
+class DatabaseConfig {
+    public $dbhost;
+    public $dbname;
+    public $dbuser;
+    public $dbpass;
+}
+
+$CFG = new DatabaseConfig();
 $CFG->dbhost = "";
 $CFG->dbname = "";
 $CFG->dbuser = "";
 $CFG->dbpass = "";
+
 ?>
